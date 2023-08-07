@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome"></parameter>
+  <test name="Positive Test">
+  <parameter name="username" value="kapilpalepu"></parameter>
+ <parameter name="password" value="Jehovah@jk12"></parameter>
+  <classes>
+  <class name="com.adactingpract.Login"></class>
+  </classes>
+  </test> <!-- Test -->
+  <test name="Negative Test">
+  <parameter name="userNegative" value="kapilpalep"></parameter>
+ <parameter name="passNegative" value="Jehovah@jk1"></parameter>
+  <classes>
+  <class name="com.adactingpract.LoginNegative"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
